@@ -1,0 +1,1 @@
+allow system_server sensors_socket:sock_file getattr;
