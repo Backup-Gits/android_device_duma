@@ -55,7 +55,7 @@ int main() {
         goto shutdown;
     }
 
-    ALOGI("Power Service is ready");
+    ALOGI("Power HAL Ready.");
     joinRpcThreadpool();
     //Should not pass this line
 
