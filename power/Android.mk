@@ -23,6 +23,7 @@ LOCAL_SRC_FILES := service.cpp \
                    power-helper.c
 
 LOCAL_CFLAGS += -DWLAN_POWER_STAT=\"$(TARGET_WLAN_POWER_STAT)\"
+LOCAL_CFLAGS += -DARCH_ARM_32
 
 
 LOCAL_SHARED_LIBRARIES := liblog libcutils libhidlbase libhidltransport libhardware libhwbinder libutils android.hardware.power@1.0 vendor.lineage.power@1.0
