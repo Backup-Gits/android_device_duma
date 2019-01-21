@@ -18,4 +18,5 @@ allow init {
     sysfs_msm_subsys
     sysfs_usb
     sysfs_wlan_fwpath
+    sysfs_leds
 }:file setattr;

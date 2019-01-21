@@ -5,7 +5,7 @@ genfscon sysfs /module/rmnet_usb/parameters/rmnet_data_init                     
 
 # light
 genfscon sysfs /devices/platform/msm_ssbi.0/pm8921-core/pm8xxx-led               u:object_r:sysfs_leds:s0
-genfscon sysfs /devices/platform/msm_fb.591617/leds/lcd-backlight                u:object_r:sysfs_leds:s0
+genfscon sysfs /devices/platform/msm_fb.526081/leds/lcd-backlight                u:object_r:sysfs_leds:s0
 
 # Sysfs files used by mpdecision
 genfscon sysfs /module/pm2/modes                                        u:object_r:sysfs_mpdecision:s0
