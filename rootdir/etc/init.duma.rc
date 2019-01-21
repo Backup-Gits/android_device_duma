@@ -61,6 +61,10 @@ on boot
     mkdir /dev/socket/qmux_gps 0770 gps gps
     chmod 2770 /dev/socket/qmux_gps
 
+    # This is needed to change backlight values
+    chown system system /sys/class/leds/lcd-backlight/brightness
+    chown system system /sys/class/leds/lcd-backlight/max_brightness
+
     # Allow thermald to modify the current LCD brightness
     chmod 664 /sys/class/leds/lcd-backlight/brightness
 
