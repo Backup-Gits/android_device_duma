@@ -239,6 +239,7 @@ PRODUCT_CHARACTERISTICS := tablet
 
 # OMX
 PRODUCT_PACKAGES += \
+    libaacwrapper \
     libOmxVdec \
     libOmxVenc \
     libOmxCore \
