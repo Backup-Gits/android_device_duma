@@ -353,10 +353,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.debug.wfd.enable=1 \
     persist.sys.wfd.virtual=0 \
     wlan.wfd.hdcp=disable
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
-
+	
 #Fix native libraries error messages in Amazon Prime Video and Firefox
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.bionic.ld.warning=0
