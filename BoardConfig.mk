@@ -137,6 +137,11 @@ BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
 #Reduce space taken by the journal
 BOARD_SYSTEMIMAGE_JOURNAL_SIZE := 0
 
+
+BOARD_ROOT_EXTRA_FOLDERS := \
+    persist \
+    firmware
+
 # Use mke2fs to create ext4 images
 TARGET_USES_MKE2FS := true
 
