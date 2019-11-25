@@ -189,7 +189,7 @@ SELINUX_IGNORE_NEVERALLOWS := true
 
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
-#include device/qcom/sepolicy/sepolicy.mk
+include device/qcom/sepolicy-legacy/sepolicy.mk
 
 # Enable Minikin text layout engine (will be the default soon)
 USE_MINIKIN := true
