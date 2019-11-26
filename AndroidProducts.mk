@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_duma.mk 
+    $(LOCAL_DIR)/lineage_duma.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_duma-user \
+    lineage_duma-userdebug \
+    lineage_duma-eng
